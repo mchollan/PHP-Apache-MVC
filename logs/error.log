@@ -44,3 +44,7 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sun Nov 05 16:09:48.484470 2023] [php:notice] [pid 19] [client 172.19.0.1:33960] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port)., referer: http://localhost:8080/?XDEBUG_SESSION_START=1
 [Sun Nov 05 16:13:00.367612 2023] [php:notice] [pid 23] [client 172.19.0.1:35224] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
 [Sun Nov 05 16:13:00.576562 2023] [php:notice] [pid 23] [client 172.19.0.1:35224] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port)., referer: http://localhost:8080/?XDEBUG_SESSION_START=1
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 06 01:53:15.481488 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.25 configured -- resuming normal operations
+[Mon Nov 06 01:53:15.481982 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Nov 06 01:57:31.342535 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
