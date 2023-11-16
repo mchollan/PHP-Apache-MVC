@@ -13,6 +13,7 @@ services:
       XDEBUG_CONFIG: client_host=host.docker.internal client_port=9003
     volumes:
         - ./Code/:/var/www/html/
+        - ./Secrets/:/var/www/
         - ./logs/:/var/log/apache2
   mysql:
     image: mysql:8.2

@@ -6,6 +6,7 @@ spl_autoload_register(function($classname){
 });
 
 require 'config.php';
+require 'Auth.php';
 require 'functions.php';
 require 'Database.php';
 require './app/repositories/UploadsRepo.php';
